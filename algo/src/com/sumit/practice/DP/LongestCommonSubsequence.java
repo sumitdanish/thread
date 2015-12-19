@@ -1,4 +1,4 @@
-package com.sumit.practice;
+package com.sumit.practice.DP;
 
 public class LongestCommonSubsequence {
 
