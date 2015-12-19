@@ -1,3 +1,4 @@
+package com.mythredpoll;
 
 public interface CustomQueue<E> {
 
