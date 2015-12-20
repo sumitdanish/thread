@@ -35,6 +35,7 @@ public class ReverseLinkList {
 	
 	
 	
+	
 	public Node createList(Node node,int data){
 		Node n = new Node(data);
 		if(node == null){
