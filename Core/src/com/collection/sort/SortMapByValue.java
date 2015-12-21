@@ -19,7 +19,7 @@ public class SortMapByValue {
 		map.put(1,"S");
 		map.put(12,"A");
 		map.put(19,"R");
-		map.put(5,"K");
+		map.put(5,"K"); 
 		map.put(2,"M");
 		List<Map.Entry<Integer,String>> list = new LinkedList<Map.Entry<Integer,String>>(map.entrySet());
 		Map<Integer,String>  sorteMap = new HashMap<Integer, String>();
