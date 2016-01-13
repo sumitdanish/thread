@@ -5,7 +5,7 @@ public class IntersectionOfTwoWord {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String v = "abxyz";
-		String h = "xyz";
+		String h = "xmlkopxyz";
 		int x = 0;
 		int y = 0;
 		char[][] m = new char[v.length()][h.length()];
