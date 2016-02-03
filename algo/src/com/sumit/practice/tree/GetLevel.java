@@ -16,9 +16,10 @@ public class GetLevel {
 			return level;
 		}
 		int lLeft = getLevel(tn.getLeft(), key, level+1);
+		int rRIght =getLevel(tn.getRight(), key, level+1); 
 		if(lLeft != 0){
 			return lLeft;
 		}
-		return getLevel(tn.getRight(), key, level+1);
+		return rRIght;
 	}
 }
