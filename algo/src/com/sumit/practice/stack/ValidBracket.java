@@ -6,7 +6,7 @@ public class ValidBracket {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new ValidBracket().valid("((()");;
+		new ValidBracket().valid("()(()))))");;
 	}
 	public void valid(String str){
 		Stack<Character> st = new Stack<Character>();
